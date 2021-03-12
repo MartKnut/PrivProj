@@ -31,11 +31,11 @@ public class ProcedualGeneration : MonoBehaviour
                 spawnZ = Random.Range(z, debth);
                 
                 
-                // set a min and max alternation height
-                int minHeight = height - 1;
-                int maxHeight = height + 2;
-                // Use the min and max to randomly alternate eZ terrain
-                //height = Random.Range(minHeight, maxHeight);
+                //set a min and max alternation height
+                // int minHeight = height - 1;
+                // int maxHeight = height + 2;
+                //Use the min and max to randomly alternate eZ terrain
+                // height = Random.Range(minHeight, maxHeight);
                 
                 
                 // Stone
@@ -57,10 +57,11 @@ public class ProcedualGeneration : MonoBehaviour
                     {
                         spawnObj(dirt,x,y,z);
                     }
-                
-                    if (x == spawnX && y == spawnY)
+
+                    if (x == spawnX && y == spawnY && z == spawnZ) 
                     {
-                        spawnY = y + height;
+                        spawnY = height + 2;
+                        
                         spawnObj(spawnPoint, spawnX, spawnY, spawnZ);
                     }
    

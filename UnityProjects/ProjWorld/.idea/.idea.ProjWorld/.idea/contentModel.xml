@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="Generator" t="Include">
           <e p="Scripts" t="Include">
+            <e p="FollowPlayer.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
             <e p="ProcedualGeneration.cs" t="Include" />
             <e p="SpawnManager.cs" t="Include" />
           </e>

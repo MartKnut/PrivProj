@@ -43,9 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e375f3e9d19b5304ba23eff55b14d158, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 50
-  height: 50
-  debth: 50
+  width: 16
+  height: 16
+  debth: 16
   minStoneheight: 10
   maxStoneHeight: 15
   dirt: {fileID: 2758295716277509637, guid: f10213a893e8a00439b3fc1aac8da7aa, type: 3}

@@ -28,10 +28,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Generator/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/OneDrive/UnityCommonScripts/Player/PlayerMovementScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://G:/UnityProjects/UnityProjects/CollabPixelate/Assets/Scripts/PlayerScripts/PlayerControllerWJump.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A640F6C-B241-40B6-897C-AC910F849430/c5/c2fd3423/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/OneDrive/UnityCommonScripts/Player/2DMovement/PlayerMovementScript.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Generator/Scripts/ProcedualGeneration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/FollowPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -76,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615572323164</updated>
       <workItem from="1615572341928" duration="2041000" />
+      <workItem from="1615584614256" duration="4393000" />
     </task>
     <servers />
   </component>
@@ -94,6 +105,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
