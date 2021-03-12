@@ -23,12 +23,11 @@ public class FollowPlayer : MonoBehaviour
 
     private void Start()
     {
-        player = FindObjectOfType<PlayerController>().gamer;
+        player = FindObjectOfType<PlayerController>().rb;
     }
 
     private void Update()
     {
-
         var position = player.transform.position;
         camera.transform.position = new Vector3(position.x, position.y, camera.transform.position.z);
     }

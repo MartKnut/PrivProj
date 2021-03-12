@@ -20,9 +20,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Generator/SpawnManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/FollowPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Generator/ProcedualGeneration.cs" />
+        <option value="$PROJECT_DIR$/Assets/PerlinNoise.cs" />
+        <option value="$PROJECT_DIR$/Assets/CommonScripts/Perlin Noise/PerlinNoise.cs" />
+        <option value="$PROJECT_DIR$/Assets/FollowPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/SpawnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +71,7 @@
       <updated>1615291407080</updated>
       <workItem from="1615291435804" duration="622000" />
       <workItem from="1615312949455" duration="3773000" />
-      <workItem from="1615376760068" duration="10934000" />
+      <workItem from="1615376760068" duration="19405000" />
     </task>
     <servers />
   </component>
@@ -81,9 +84,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="143" y="252" key="search.everywhere.popup" timestamp="1615313129328">
+    <state x="143" y="252" width="672" height="678" key="search.everywhere.popup" timestamp="1615561878662">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="143" y="252" key="search.everywhere.popup/0.0.1920.1080/-1680.10.1680.1050@0.0.1920.1080" timestamp="1615313129328" />
+    <state x="143" y="252" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1680.10.1680.1050@0.0.1920.1080" timestamp="1615561878662" />
   </component>
 </project>

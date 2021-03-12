@@ -11,26 +11,35 @@ public class PlayerController : MonoBehaviour
     public float jumpHeight;
     public float jumpSpeed;
     
-    public Rigidbody2D gamer;
-    
+    public Rigidbody2D rb;
+
+    public float rayOffsetY;
+    public float rayOffsetX;
+    public float rayLength;
     
     // Start is called before the first frame update
     void Awake() {
-        gamer = gameObject.GetComponent<Rigidbody2D>();
+        rb = gameObject.GetComponent<Rigidbody2D>();
+
     }
 
     private void Start()
     {
-        gamer = gameObject.GetComponent<Rigidbody2D>();
-        gamer.transform.position = GetComponent<SpawnManager>().player.transform.position;
-        
+        rb = gameObject.GetComponent<Rigidbody2D>();
+        rb.transform.position = GetComponent<SpawnManager>().transform.position;
+
         jumpHeight = 1;
         var position = spawnPoint.transform.position;
         gameObject.transform.position = new Vector3(position.x,position.y);
+        
     }
 
     // Update is called once per frame
     void Update() {
+        
+    }
+    
+    private void FixedUpdate() { 
         Move();
     }
 
@@ -41,13 +50,17 @@ public class PlayerController : MonoBehaviour
         }
         
         var x = Input.GetAxis("Horizontal");
-        gamer.velocity = new Vector2(x * moveSpeed, gamer.velocity.y);
+        rb.velocity = new Vector2(x * moveSpeed, rb.velocity.y);
         
     }
 
+    
+
+    
+
     IEnumerator Jump(float jumpHeight) {
         canjump = false;
-        gamer.velocity = new Vector2(gamer.velocity.x, jumpHeight);
+        rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         yield return new WaitForSeconds(jumpSpeed);
         canjump = true;
     }

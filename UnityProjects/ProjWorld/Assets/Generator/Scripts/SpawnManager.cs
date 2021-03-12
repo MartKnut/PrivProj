@@ -26,6 +26,7 @@ public class SpawnManager : MonoBehaviour
 
     private void spawnPlayer()
     {
+        player.transform.position = new Vector3(spawn.transform.position.x, spawn.transform.position.y + 3);
         Instantiate(player);
     }
 

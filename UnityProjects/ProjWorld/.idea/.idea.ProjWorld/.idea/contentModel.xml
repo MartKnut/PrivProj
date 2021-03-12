@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Martin\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Martin\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ProjWorld.-58825481.00" t="ExcludeRecursive" />
+    <e p="F:\Git\PrivProj\UnityProjects\ProjWorld" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Generator" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="ProcedualGeneration.cs" t="Include" />
+            <e p="SpawnManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Perlin Noise" t="Include">
+          <e p="PerlinNoise.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="ProjWorld.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

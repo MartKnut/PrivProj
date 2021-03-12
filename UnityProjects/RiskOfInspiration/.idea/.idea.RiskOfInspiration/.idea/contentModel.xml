@@ -6,10 +6,17 @@
     <e p="F:\Git\PrivProj\UnityProjects\RiskOfInspiration" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CommonScripts" t="Include">
+          <e p="Perlin Noise" t="Include">
+            <e p="PerlinNoise.cs" t="Include" />
+          </e>
+        </e>
         <e p="FollowPlayer.cs" t="Include" />
         <e p="Generator" t="Include">
-          <e p="ProcedualGeneration.cs" t="Include" />
-          <e p="SpawnManager.cs" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="ProcedualGeneration.cs" t="Include" />
+            <e p="SpawnManager.cs" t="Include" />
+          </e>
         </e>
         <e p="PlayerController.cs" t="Include" />
       </e>
