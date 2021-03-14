@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4031780612178535760}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 17.175001, z: 3}
+  m_LocalPosition: {x: 3, y: 18, z: 7}
   m_LocalScale: {x: 0.7, y: 1.35, z: 0.7}
   m_Children: []
   m_Father: {fileID: 0}
@@ -116,9 +116,9 @@ MonoBehaviour:
   canjump: 1
   moveSpeed: 5
   jumpHeight: 6
-  jumpRechargeSpeed: 0.7
+  offsetX: 0
+  offsetY: 0
   rb: {fileID: 9205895457495324587}
-  cam: {fileID: 1135668234215227985, guid: 0dbb2839ff971cd47a1077a5f5c75be2, type: 3}
 --- !u!136 &-8658789245156740377
 CapsuleCollider:
   m_ObjectHideFlags: 0

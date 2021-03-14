@@ -9,23 +9,23 @@ public class PerlinNoise : MonoBehaviour
     public int height = 256;
 
     public float scale = 20;
-
+   
     public float offsetX = 100f;
     public float offsetY = 100f;
-
-    public float seed;
+    
+    public int seed;
     
     private Renderer _renderer;
-    
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         _renderer = GetComponent<Renderer>();
         
         if (seed == 0f)
         {
             // 1999999
-            seed = Random.Range(-1999999f, 1999999f);
+            seed = Random.Range(-1999999, 1999999);
             offsetX = seed;
             offsetY = seed;
         }

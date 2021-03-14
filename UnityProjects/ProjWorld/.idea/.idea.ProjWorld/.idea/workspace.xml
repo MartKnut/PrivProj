@@ -29,11 +29,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Generator/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0049532E-C432-485C-A342-60937DA7A054/1f/a94dce44/MeshFilter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A640F6C-B241-40B6-897C-AC910F849430/ee/ff57fc32/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/OneDrive/UnityCommonScripts/Player/2DMovement/PlayerMovementScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/OneDrive/UnityCommonScripts/Player/PlayerMovementScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Generator/Perlin Noise/PerlinNoise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://G:/UnityProjects/UnityProjects/CollabPixelate/Assets/Scripts/PlayerScripts/PlayerControllerWJump.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7A640F6C-B241-40B6-897C-AC910F849430/c5/c2fd3423/Int32.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/OneDrive/UnityCommonScripts/Player/2DMovement/PlayerMovementScript.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -42,6 +44,23 @@
         <option value="$PROJECT_DIR$/Assets/Generator/Scripts/SpawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Generator/Scripts/FollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Generator/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/ProceduralMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/YValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/ProceduralMesh.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/ProcedualGrid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/ProceduralGrid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/ProcedualCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/CubeMeshData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/VoxelData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/VoxelRender.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/Voxel/VoxelData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/Voxel/CubeMeshData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/Voxel/ProcedualCube.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Cube/Voxel/VoxelRender.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Player/FollowPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Perlin Noise/PerlinNoise.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generator/Scripts/WorldGen/ProcedualGeneration.cs" />
       </list>
     </option>
   </component>
@@ -86,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615572323164</updated>
       <workItem from="1615572341928" duration="2041000" />
-      <workItem from="1615584614256" duration="4393000" />
+      <workItem from="1615584614256" duration="25422000" />
     </task>
     <servers />
   </component>

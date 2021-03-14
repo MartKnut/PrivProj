@@ -11,22 +11,18 @@ public class ProcedualGeneration : MonoBehaviour
     [SerializeField] private GameObject dirt, grass, stone, spawnPoint;
     //[SerializeField] private Tile dirt, grass, stone, spawnPoint;
     private int spawnX, spawnY, spawnZ;
+
     
         // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         Generation();
-        
     }
 
     // Update is called once per frame
-    void Generation()
-    {
-        
-        for (int x = 0; x < width; x++) // Spawn tiles on the X
-        {
-            for (int z = 0; z < debth; z++)
-            {
+    void Generation() {
+        for (int x = 0; x < width; x++) // Spawn tiles on the X{
+            for (int z = 0; z < debth; z++) {
                 spawnX = Random.Range(x, width);
                 spawnZ = Random.Range(z, debth);
                 
@@ -37,23 +33,22 @@ public class ProcedualGeneration : MonoBehaviour
                 //Use the min and max to randomly alternate eZ terrain
                 // height = Random.Range(minHeight, maxHeight);
                 
-                
+
                 // Stone
                 int minStoneSpawnDistance = height - minStoneheight;
                 int maxStoneSpawnDistance = height - maxStoneHeight;
                 int totalStoneSpawnDistance = Random.Range(minStoneSpawnDistance, maxStoneSpawnDistance);
 
-            
-                
-                
                 
                 for (int y = 0; y < height; y++) // Spawn tiles on the Y
                 {
+                    
+                    
                     if (y<totalStoneSpawnDistance) // Spawn Stone on a random distance from dirt between minstoneheight and maxstoneheight
                     {
                         spawnObj(stone, x, y,z);
                     }
-                    else // Place dirt above dirt by being above the maxstoneheight
+                    else // Place dirt above stone by being above the maxstoneheight
                     {
                         spawnObj(dirt,x,y,z);
                     }
@@ -68,7 +63,6 @@ public class ProcedualGeneration : MonoBehaviour
                 }
                 spawnObj(grass, x, height, z);
             }
-        }
         //Spawn the SpawnPoint
     }
 

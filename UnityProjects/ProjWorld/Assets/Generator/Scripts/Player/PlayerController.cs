@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
     public bool canjump = true;
     public float moveSpeed;
     public float jumpHeight;
-    public float jumpRechargeSpeed;
     
     public Rigidbody rb;
 
@@ -52,21 +51,26 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
+        
         rb.velocity = new Vector3(x * moveSpeed, rb.velocity.y, z * moveSpeed);
         
         if (Input.GetKeyDown(KeyCode.Space) && canjump) {
-            StartCoroutine(Jump(jumpHeight));
+            Jump(jumpHeight);
         }
     }
 
     
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.collider.CompareTag("Untagged"))
+        {
+            canjump = true;
+        }
+    }
 
-    
 
-    IEnumerator Jump(float jumpHeight) {
+    void Jump(float jumpHeight) {
         canjump = false;
         rb.velocity = new Vector3(rb.velocity.x, jumpHeight, rb.velocity.z);
-        yield return new WaitForSeconds(jumpRechargeSpeed);
-        canjump = true;
     }
 }
