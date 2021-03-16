@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VoxelData
 {
-    private int[,] data = new int[,] {{0,1,1},{1,1,1},{1,1,0}};
+    private int[,] data = new int[,] {{0, 1, 1}, {1, 1, 1}, {1, 1, 0}};
 
     public int Width {
         get { return data.GetLength(0); }
@@ -16,7 +16,6 @@ public class VoxelData
     
     public int GetCell(int x, int z) {
         return data[x, z];
-
     }
 
     public int GetNeighbour(int x, int z, Direction dir)

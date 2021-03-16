@@ -6,33 +6,41 @@
     <e p="F:\Git\PrivProj\UnityProjects\ProjWorld" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Generator" t="Include">
-          <e p="Perlin Noise" t="Include">
-            <e p="PerlinNoise.cs" t="Include" />
+        <e p="Experiment2" t="Include">
+          <e p="BlockScript.cs" t="Include" />
+          <e p="EXP_ProceduralGeneration.cs" t="Include" />
+          <e p="Occlusion" t="Include">
+            <e p="OcclusionObject.cs" t="Include" />
+            <e p="OcclusionScript.cs" t="Include" />
           </e>
-          <e p="Scripts" t="Include">
-            <e p="Cube" t="Include">
-              <e p="Old Mesh" t="Include">
-                <e p="ProceduralGrid.cs" t="Include" />
-                <e p="ProceduralMesh.cs" t="Include" />
-                <e p="YValue.cs" t="Include" />
-              </e>
-              <e p="Voxel" t="Include">
-                <e p="CubeMeshData.cs" t="Include" />
-                <e p="ProcedualCube.cs" t="Include" />
-                <e p="VoxelData.cs" t="Include" />
-                <e p="VoxelRender.cs" t="Include" />
-              </e>
+        </e>
+        <e p="Generator" t="Include">
+          <e p="Experimenting" t="Include">
+            <e p="Perlin Noise" t="Include">
+              <e p="PerlinNoise.cs" t="Include" />
             </e>
-            <e p="Player" t="Include">
-              <e p="PlayerController.cs" t="Include" />
-            </e>
-            <e p="WorldGen" t="Include">
-              <e p="ProcedualGeneration.cs" t="Include" />
-              <e p="SpawnManager.cs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Cube" t="Include">
+                <e p="Old Mesh" t="Include">
+                  <e p="ProceduralGrid.cs" t="Include" />
+                  <e p="ProceduralMesh.cs" t="Include" />
+                  <e p="YValue.cs" t="Include" />
+                </e>
+                <e p="Voxel" t="Include">
+                  <e p="CubeMeshData.cs" t="Include" />
+                  <e p="ProcedualCube.cs" t="Include" />
+                  <e p="VoxelData.cs" t="Include" />
+                  <e p="VoxelRender.cs" t="Include" />
+                </e>
+              </e>
+              <e p="WorldGen" t="Include">
+                <e p="ProceduralGeneration.cs" t="Include" />
+                <e p="SpawnManager.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
+        <e p="PlayerController.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using Random = UnityEngine.Random;
 
-public class ProcedualGeneration : MonoBehaviour
+public class ProceduralGeneration : MonoBehaviour
 {
     [SerializeField] private int width, height, debth;
     [SerializeField] private int minStoneheight, maxStoneHeight;
